@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f5e8fde2-a62b-4ddf-a0f5-e3a5a6919e90" name="Novak@NOVASOFT-NB 2009-12-16 09:21:46" runUser="NovaSoft-NB\Novak" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="309e06a4-4955-47b5-9016-73de246fba6c">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Dev\SwintonTest\TQE\TestResults\Novak_NOVASOFT-NB 2009-12-16 09_21_46">
+      <DeploymentItem filename="C:\Dev\SwintonTest\TQE\TQE\bin\Debug\TQE.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-12-16T09:21:46.6016411+00:00" queuing="2009-12-16T09:21:48.1576411+00:00" start="2009-12-16T09:21:48.3776411+00:00" finish="2009-12-16T09:21:48.8136411+00:00" />
+  <TestDefinitions>
+    <UnitTest name="TestAgeWeighting_Decline" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="323b5ea4-be06-4883-6b73-0e4bf082d959">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9da18d4c-b4c4-4508-8393-7f1a5fa1ac4e" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestAgeWeighting_Decline" />
+    </UnitTest>
+    <UnitTest name="TestGenderWeighting_Male" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="2b0736bd-5413-6902-112c-46d85ba0581f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ce0384bf-7dfb-4a07-ae72-521d77e4cf8c" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestGenderWeighting_Male" />
+    </UnitTest>
+    <UnitTest name="TestTripDurationWeighting_7Days" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="168733f8-8e65-c981-9383-478a084f9cb8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5ac9b3c0-fe87-40f2-b15a-fb85ce6b14ba" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestTripDurationWeighting_7Days" />
+    </UnitTest>
+    <UnitTest name="TestSample1ST" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="8fc05a8b-a9d0-969c-20a2-b08eaf8a1158">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="da39b758-16c4-4976-a4a6-1e2d8eacd8e4" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestSample1ST" />
+    </UnitTest>
+    <UnitTest name="TestTripDurationWeighting_14Days" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="4eb21e3d-7885-56d0-3b2e-ebc3ed83cd40">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d5e73f43-0cf0-4e5f-a24c-b550e2a4ff2b" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestTripDurationWeighting_14Days" />
+    </UnitTest>
+    <UnitTest name="TestIPTValue" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="1bbb9bfe-c0f1-f99c-ab63-2a13bf20b284">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8d6d8dfa-72c0-4f96-80aa-7f488c08e5cc" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestIPTValue" />
+    </UnitTest>
+    <UnitTest name="TestTripDurationWeighting_Decline" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="cd9be2ab-1032-ded2-8fa2-59454d60c894">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bcbed9e9-dacf-44f7-8fa5-663f523ffce0" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestTripDurationWeighting_Decline" />
+    </UnitTest>
+    <UnitTest name="TestAgeWeighting_Age15" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="52b6ada7-5bdc-eb72-d765-e41f1f7fad12">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ad011e36-ba2c-45e4-a6e7-17a469a9d832" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestAgeWeighting_Age15" />
+    </UnitTest>
+    <UnitTest name="TestBasePremium_SingleTrip" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="519385ab-6d7c-d84f-3f7e-ef80e50adadd">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5d26df9e-c66d-4feb-8a1c-726d0c016598" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestBasePremium_SingleTrip" />
+    </UnitTest>
+    <UnitTest name="TestBasePremium_AnnualTrip" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="579d527c-f06c-7992-a10b-dc4d523c4f5b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d7bfdc3a-5f6d-4a6c-9953-a0cbe62468bb" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestBasePremium_AnnualTrip" />
+    </UnitTest>
+    <UnitTest name="TestTripDurationWeighting_21Days" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="0b056666-24ce-1387-c59c-ff18a3605375">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2ca5c92b-a9dc-486d-bc73-a2f69b0a18c5" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestTripDurationWeighting_21Days" />
+    </UnitTest>
+    <UnitTest name="TestAgeWeighting_Age30" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="c7e9b0d8-a501-ae48-e935-e6510e9cc393">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2b65a5bf-16e2-4e37-a2e2-7352a8920921" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestAgeWeighting_Age30" />
+    </UnitTest>
+    <UnitTest name="TestSample2AT" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="972d48a1-599e-d699-b436-a49eaaec7388">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e505dcc2-8cd9-40d0-9fd8-c759f5e2d930" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestSample2AT" />
+    </UnitTest>
+    <UnitTest name="TestTripDurationWeighting_30Days" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="58789159-47b7-43ee-9571-d8172dca1b2f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1d0a4154-8823-4f7d-b8c8-73a7f958c477" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestTripDurationWeighting_30Days" />
+    </UnitTest>
+    <UnitTest name="TestGenderWeighting_Female" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="bc172604-bd62-68da-0a02-26ba042e70b5">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fa88cd94-7595-432a-aad1-1134425b9b31" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestGenderWeighting_Female" />
+    </UnitTest>
+    <UnitTest name="TestAgeWeighting_Age70" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="ae681eac-5d0f-3407-1b23-9588330897e2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9c1fc154-712f-4629-bf8d-f0cd9746f1f7" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestAgeWeighting_Age70" />
+    </UnitTest>
+    <UnitTest name="TestAgeWeighting_Age56" storage="c:\dev\swintontest\tqe\tqe.tests\bin\debug\tqe.tests.dll" id="ba462f53-2c45-875e-084b-96d5bdc1768b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f9e13a32-dbe9-4029-b2f8-f5cf87f7af88" />
+      <TestMethod codeBase="C:\Dev\SwintonTest\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TQE.Tests.TravelTests, TQE.Tests" name="TestAgeWeighting_Age56" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0b056666-24ce-1387-c59c-ff18a3605375" executionId="2ca5c92b-a9dc-486d-bc73-a2f69b0a18c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="168733f8-8e65-c981-9383-478a084f9cb8" executionId="5ac9b3c0-fe87-40f2-b15a-fb85ce6b14ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1bbb9bfe-c0f1-f99c-ab63-2a13bf20b284" executionId="8d6d8dfa-72c0-4f96-80aa-7f488c08e5cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b0736bd-5413-6902-112c-46d85ba0581f" executionId="ce0384bf-7dfb-4a07-ae72-521d77e4cf8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="323b5ea4-be06-4883-6b73-0e4bf082d959" executionId="9da18d4c-b4c4-4508-8393-7f1a5fa1ac4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4eb21e3d-7885-56d0-3b2e-ebc3ed83cd40" executionId="d5e73f43-0cf0-4e5f-a24c-b550e2a4ff2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="519385ab-6d7c-d84f-3f7e-ef80e50adadd" executionId="5d26df9e-c66d-4feb-8a1c-726d0c016598" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52b6ada7-5bdc-eb72-d765-e41f1f7fad12" executionId="ad011e36-ba2c-45e4-a6e7-17a469a9d832" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="579d527c-f06c-7992-a10b-dc4d523c4f5b" executionId="d7bfdc3a-5f6d-4a6c-9953-a0cbe62468bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58789159-47b7-43ee-9571-d8172dca1b2f" executionId="1d0a4154-8823-4f7d-b8c8-73a7f958c477" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fc05a8b-a9d0-969c-20a2-b08eaf8a1158" executionId="da39b758-16c4-4976-a4a6-1e2d8eacd8e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="972d48a1-599e-d699-b436-a49eaaec7388" executionId="e505dcc2-8cd9-40d0-9fd8-c759f5e2d930" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae681eac-5d0f-3407-1b23-9588330897e2" executionId="9c1fc154-712f-4629-bf8d-f0cd9746f1f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba462f53-2c45-875e-084b-96d5bdc1768b" executionId="f9e13a32-dbe9-4029-b2f8-f5cf87f7af88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc172604-bd62-68da-0a02-26ba042e70b5" executionId="fa88cd94-7595-432a-aad1-1134425b9b31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7e9b0d8-a501-ae48-e935-e6510e9cc393" executionId="2b65a5bf-16e2-4e37-a2e2-7352a8920921" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd9be2ab-1032-ded2-8fa2-59454d60c894" executionId="bcbed9e9-dacf-44f7-8fa5-663f523ffce0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2ca5c92b-a9dc-486d-bc73-a2f69b0a18c5" testId="0b056666-24ce-1387-c59c-ff18a3605375" testName="TestTripDurationWeighting_21Days" computerName="NOVASOFT-NB" duration="00:00:00.0297065" startTime="2009-12-16T09:21:48.4616411+00:00" endTime="2009-12-16T09:21:48.6426411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5ac9b3c0-fe87-40f2-b15a-fb85ce6b14ba" testId="168733f8-8e65-c981-9383-478a084f9cb8" testName="TestTripDurationWeighting_7Days" computerName="NOVASOFT-NB" duration="00:00:00.0002445" startTime="2009-12-16T09:21:48.6456411+00:00" endTime="2009-12-16T09:21:48.6536411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8d6d8dfa-72c0-4f96-80aa-7f488c08e5cc" testId="1bbb9bfe-c0f1-f99c-ab63-2a13bf20b284" testName="TestIPTValue" computerName="NOVASOFT-NB" duration="00:00:00.0002874" startTime="2009-12-16T09:21:48.6546411+00:00" endTime="2009-12-16T09:21:48.6596411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ce0384bf-7dfb-4a07-ae72-521d77e4cf8c" testId="2b0736bd-5413-6902-112c-46d85ba0581f" testName="TestGenderWeighting_Male" computerName="NOVASOFT-NB" duration="00:00:00.0038516" startTime="2009-12-16T09:21:48.6616411+00:00" endTime="2009-12-16T09:21:48.6686411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9da18d4c-b4c4-4508-8393-7f1a5fa1ac4e" testId="323b5ea4-be06-4883-6b73-0e4bf082d959" testName="TestAgeWeighting_Decline" computerName="NOVASOFT-NB" duration="00:00:00.0057130" startTime="2009-12-16T09:21:48.6686411+00:00" endTime="2009-12-16T09:21:48.6786411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d5e73f43-0cf0-4e5f-a24c-b550e2a4ff2b" testId="4eb21e3d-7885-56d0-3b2e-ebc3ed83cd40" testName="TestTripDurationWeighting_14Days" computerName="NOVASOFT-NB" duration="00:00:00.0002272" startTime="2009-12-16T09:21:48.6786411+00:00" endTime="2009-12-16T09:21:48.6826411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5d26df9e-c66d-4feb-8a1c-726d0c016598" testId="519385ab-6d7c-d84f-3f7e-ef80e50adadd" testName="TestBasePremium_SingleTrip" computerName="NOVASOFT-NB" duration="00:00:00.0004539" startTime="2009-12-16T09:21:48.6836411+00:00" endTime="2009-12-16T09:21:48.6866411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ad011e36-ba2c-45e4-a6e7-17a469a9d832" testId="52b6ada7-5bdc-eb72-d765-e41f1f7fad12" testName="TestAgeWeighting_Age15" computerName="NOVASOFT-NB" duration="00:00:00.0002166" startTime="2009-12-16T09:21:48.6876411+00:00" endTime="2009-12-16T09:21:48.6896411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d7bfdc3a-5f6d-4a6c-9953-a0cbe62468bb" testId="579d527c-f06c-7992-a10b-dc4d523c4f5b" testName="TestBasePremium_AnnualTrip" computerName="NOVASOFT-NB" duration="00:00:00.0002208" startTime="2009-12-16T09:21:48.6906411+00:00" endTime="2009-12-16T09:21:48.6946411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1d0a4154-8823-4f7d-b8c8-73a7f958c477" testId="58789159-47b7-43ee-9571-d8172dca1b2f" testName="TestTripDurationWeighting_30Days" computerName="NOVASOFT-NB" duration="00:00:00.0002167" startTime="2009-12-16T09:21:48.6946411+00:00" endTime="2009-12-16T09:21:48.6976411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="da39b758-16c4-4976-a4a6-1e2d8eacd8e4" testId="8fc05a8b-a9d0-969c-20a2-b08eaf8a1158" testName="TestSample1ST" computerName="NOVASOFT-NB" duration="00:00:00.0069218" startTime="2009-12-16T09:21:48.6986411+00:00" endTime="2009-12-16T09:21:48.7086411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e505dcc2-8cd9-40d0-9fd8-c759f5e2d930" testId="972d48a1-599e-d699-b436-a49eaaec7388" testName="TestSample2AT" computerName="NOVASOFT-NB" duration="00:00:00.0017829" startTime="2009-12-16T09:21:48.7096411+00:00" endTime="2009-12-16T09:21:48.7136411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9c1fc154-712f-4629-bf8d-f0cd9746f1f7" testId="ae681eac-5d0f-3407-1b23-9588330897e2" testName="TestAgeWeighting_Age70" computerName="NOVASOFT-NB" duration="00:00:00.0007075" startTime="2009-12-16T09:21:48.7146411+00:00" endTime="2009-12-16T09:21:48.7266411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f9e13a32-dbe9-4029-b2f8-f5cf87f7af88" testId="ba462f53-2c45-875e-084b-96d5bdc1768b" testName="TestAgeWeighting_Age56" computerName="NOVASOFT-NB" duration="00:00:00.0002913" startTime="2009-12-16T09:21:48.7286411+00:00" endTime="2009-12-16T09:21:48.7326411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fa88cd94-7595-432a-aad1-1134425b9b31" testId="bc172604-bd62-68da-0a02-26ba042e70b5" testName="TestGenderWeighting_Female" computerName="NOVASOFT-NB" duration="00:00:00.0002322" startTime="2009-12-16T09:21:48.7346411+00:00" endTime="2009-12-16T09:21:48.7386411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2b65a5bf-16e2-4e37-a2e2-7352a8920921" testId="c7e9b0d8-a501-ae48-e935-e6510e9cc393" testName="TestAgeWeighting_Age30" computerName="NOVASOFT-NB" duration="00:00:00.0002862" startTime="2009-12-16T09:21:48.7396411+00:00" endTime="2009-12-16T09:21:48.7446411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bcbed9e9-dacf-44f7-8fa5-663f523ffce0" testId="cd9be2ab-1032-ded2-8fa2-59454d60c894" testName="TestTripDurationWeighting_Decline" computerName="NOVASOFT-NB" duration="00:00:00.0003387" startTime="2009-12-16T09:21:48.7456411+00:00" endTime="2009-12-16T09:21:48.7496411+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

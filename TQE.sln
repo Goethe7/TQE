@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4DFDE12C-94B3-4C86-96C1-6B1210E9DF77}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		TQE.vsmdi = TQE.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TQE", "TQE\TQE.csproj", "{2E7A8B6A-7EB0-4B19-A930-ECE05BBE3E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TQE.Tests", "TQE.Tests\TQE.Tests.csproj", "{FA0E3CA4-54B0-43D9-8578-851A5E9253DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E7A8B6A-7EB0-4B19-A930-ECE05BBE3E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E7A8B6A-7EB0-4B19-A930-ECE05BBE3E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E7A8B6A-7EB0-4B19-A930-ECE05BBE3E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E7A8B6A-7EB0-4B19-A930-ECE05BBE3E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0E3CA4-54B0-43D9-8578-851A5E9253DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0E3CA4-54B0-43D9-8578-851A5E9253DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0E3CA4-54B0-43D9-8578-851A5E9253DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0E3CA4-54B0-43D9-8578-851A5E9253DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TQE.vsmdi
+	EndGlobalSection
+EndGlobal
