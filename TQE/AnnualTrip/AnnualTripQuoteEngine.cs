@@ -12,25 +12,25 @@
 
         public override void CalculateQuote()
         {
-            AnnualTripQuote quote = (AnnualTripQuote)this.Quote;
+            //AnnualTripQuote quote = (AnnualTripQuote)this.Quote;
 
-            this.Premium = this.FakeDB.GetBasePremium(QuoteType.AnnualTrip);
+            this.Premium = this.FakeDb.GetBasePremium(QuoteType.AnnualTrip);
             this.PremiumBreakdowns.Add(new PremiumBreakdown("Base Premium", this.Premium, this.Premium));
 
             this.PreviousPremium = this.Premium;
-            this.Premium = this.CalculatePremiumStep(this.Premium, this.FakeDB.GetAgeWeighting(this.Quote.Proposer.Age));
+            this.Premium = this.CalculatePremiumStep(this.Premium, this.FakeDb.GetAgeWeighting(this.Quote.Proposer.Age));
             this.PremiumBreakdowns.Add(new PremiumBreakdown("Age", this.AdditionalCost(), this.Premium));
 
             this.PreviousPremium = this.Premium;
-            this.Premium = this.CalculatePremiumStep(this.Premium, this.FakeDB.GetGenderWeighting(this.Quote.Proposer.Gender));
+            this.Premium = this.CalculatePremiumStep(this.Premium, this.FakeDb.GetGenderWeighting(this.Quote.Proposer.Gender));
             this.PremiumBreakdowns.Add(new PremiumBreakdown("Sex", this.AdditionalCost(), this.Premium));
 
             this.PreviousPremium = this.Premium;
-            this.Premium = this.CalculatePremiumStep(this.Premium, this.FakeDB.GetTripDestinationWeighting(this.Quote.Trip.Destination));
+            this.Premium = this.CalculatePremiumStep(this.Premium, this.FakeDb.GetTripDestinationWeighting(this.Quote.Trip.Destination));
             this.PremiumBreakdowns.Add(new PremiumBreakdown("Destination", this.AdditionalCost(), this.Premium));
 
             this.PreviousPremium = this.Premium;
-            this.Premium = this.CalculatePremiumStep(this.Premium, this.FakeDB.GetIPT());
+            this.Premium = this.CalculatePremiumStep(this.Premium, this.FakeDb.GetIPT());
             this.PremiumBreakdowns.Add(new PremiumBreakdown("Tax", this.AdditionalCost(), this.Premium));
 
         }

@@ -15,53 +15,26 @@
 
         public double AdditionalCost()
         {
-            return this._premium - this._previousPremium;
+            return this.Premium - this.PreviousPremium;
         }
 
-        private TravelQuote _quote;
-        private FakeDB _fakeDB = new FakeDB();
-        private double _premium;
-        private double _previousPremium;
-        private PremiumBreakdownCollection _premiumBreakdown = new PremiumBreakdownCollection();
+        public TravelQuote Quote { get; set; }
 
-        public TravelQuote Quote
-        {
-            get { return this._quote; }
-            set { this._quote = value; }
-        }
+        public double Premium { get; set; }
 
-        public double Premium
-        {
-            get { return this._premium; }
-            set { this._premium = value; }
-        }
+        public double PreviousPremium { get; set; }
 
-        public double PreviousPremium
-        {
-            get { return this._previousPremium; }
-            set { this._previousPremium = value; }
-        }
+        //private double TotalPremium => this.Premium;
 
-        public double TotalPremium
-        {
-            get { return this._premium; }
-        }
+        public PremiumBreakdownCollection PremiumBreakdowns { get; } = new PremiumBreakdownCollection();
 
-        public PremiumBreakdownCollection PremiumBreakdowns 
-        {
-            get { return this._premiumBreakdown; }
-        }
-
-        public FakeDB FakeDB
-        {
-            get { return this._fakeDB; }
-        }
+        public FakeDB FakeDb { get; } = new FakeDB();
 
         public string QuoteString()
         {
-            StringBuilder output = new StringBuilder();
+            var output = new StringBuilder();
 
-            foreach (PremiumBreakdown step in this.PremiumBreakdowns)
+            foreach (var step in this.PremiumBreakdowns)
             {
                 output.Append(step.Description);
                 output.Append(" (" + step.AdditionalCost.ToString("C") + ") : ");

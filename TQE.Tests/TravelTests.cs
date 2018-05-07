@@ -2,6 +2,8 @@
 
 namespace TQE.Tests
 {
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
     using TQE.AnnualTrip;
     using TQE.Common;
     using TQE.FakeDB;
@@ -10,8 +12,8 @@ namespace TQE.Tests
     [TestClass]
     public class TravelTests
     {
-        private FakeDB _fakeDB;
-        private QuoteEngineFactory _factory;
+        private readonly FakeDB _fakeDB;
+        private readonly QuoteEngineFactory _factory;
         private QuoteEngine _quoteEngine;
 
         public TravelTests()
@@ -20,19 +22,7 @@ namespace TQE.Tests
             _factory = new QuoteEngineFactory();
         }
 
-        private TestContext testContextInstance;
-
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
+        public TestContext TestContext { get; set; }
 
         [TestMethod]
         public void TestBasePremium_SingleTrip()
@@ -127,14 +117,22 @@ namespace TQE.Tests
         [TestMethod]
         public void TestSample1ST()
         {
-            string[] quoteInput = Helper.PrepareIt("Type:SingleTrip\nAge:20\nSex:Male\nDestination:UK\nPeriodOfTravel:10");
+            var quoteInput = Helper.PrepareIt("Type:SingleTrip\nAge:20\nSex:Male\nDestination:UK\nPeriodOfTravel:10");
 
-            SingleTripQuote STQ = new SingleTripQuote();
+            var STQ = new SingleTripQuote
+                          {
+                              Proposer =
+                                  {
+                                      Age = int.Parse(quoteInput[1]),
+                                      Gender = (Gender)Enum.Parse(typeof(Gender), quoteInput[2])
+                                  },
+                              Trip =
+                                  {
+                                      Destination = (DestinationRegion)Enum.Parse(typeof(DestinationRegion), quoteInput[3]),
+                                      PeriodOfTrip = int.Parse(quoteInput[4])
+                                  }
+                          };
 
-            STQ.Proposer.Age = Int32.Parse(quoteInput[1]);
-            STQ.Proposer.Gender = (Gender)Enum.Parse(typeof(Gender), quoteInput[2]);
-            STQ.Trip.Destination = (DestinationRegion)Enum.Parse(typeof(DestinationRegion), quoteInput[3]);
-            STQ.Trip.PeriodOfTrip = Int32.Parse(quoteInput[4]);
 
             _quoteEngine = _factory.CreateQuoteEngine(STQ);
             _quoteEngine.CalculateQuote();
@@ -145,13 +143,21 @@ namespace TQE.Tests
         [TestMethod]
         public void TestSample2AT()
         {
-            string[] quoteInput = Helper.PrepareIt("Type:AnnualTrip\nAge:67\nSex:Female\nDestination:Worldwide");
+            var quoteInput = Helper.PrepareIt("Type:AnnualTrip\nAge:67\nSex:Female\nDestination:Worldwide");
 
-            AnnualTripQuote ATQ = new AnnualTripQuote();
+            var ATQ = new AnnualTripQuote
+                          {
+                              Proposer =
+                                  {
+                                      Age = int.Parse(quoteInput[1]),
+                                      Gender = (Gender)Enum.Parse(typeof(Gender), quoteInput[2])
+                                  },
+                              Trip =
+                                  {
+                                      Destination = (DestinationRegion)Enum.Parse(typeof(DestinationRegion), quoteInput[3])
+                                  }
+                          };
 
-            ATQ.Proposer.Age = Int32.Parse(quoteInput[1]);
-            ATQ.Proposer.Gender = (Gender)Enum.Parse(typeof(Gender), quoteInput[2]);
-            ATQ.Trip.Destination = (DestinationRegion)Enum.Parse(typeof(DestinationRegion), quoteInput[3]);
 
             _quoteEngine = _factory.CreateQuoteEngine(ATQ);
             _quoteEngine.CalculateQuote();

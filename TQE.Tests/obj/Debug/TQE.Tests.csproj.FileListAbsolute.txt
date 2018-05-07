@@ -7,3 +7,10 @@ C:\Dev\SwintonTest\TQE\TQE.Tests\obj\Debug\TQE.Tests.dll
 C:\Dev\SwintonTest\TQE\TQE.Tests\obj\Debug\TQE.Tests.pdb
 C:\DEV\Travel Quote Engine\TQE\TQE.Tests\obj\Debug\TQE.Tests.csprojResolveAssemblyReference.cache
 C:\DEV\TQE\TQE.Tests\obj\Debug\TQE.Tests.csprojResolveAssemblyReference.cache
+C:\DEV\TQE\TQE.Tests\bin\Debug\TQE.Tests.dll
+C:\DEV\TQE\TQE.Tests\bin\Debug\TQE.Tests.pdb
+C:\DEV\TQE\TQE.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\DEV\TQE\TQE.Tests\bin\Debug\TQE.exe
+C:\DEV\TQE\TQE.Tests\bin\Debug\TQE.pdb
+C:\DEV\TQE\TQE.Tests\obj\Debug\TQE.Tests.dll
+C:\DEV\TQE\TQE.Tests\obj\Debug\TQE.Tests.pdb
