@@ -4,38 +4,26 @@
 
     public class TravelQuote
     {
-        private Proposer _proposer;
-        private Trip _trip;
-
         public TravelQuote()
         {
-            this._proposer = new Proposer();
-            this._trip = new Trip();
+            this.Proposer = new Proposer();
+            this.Trip = new Trip();
         }
 
         public TravelQuote(int age, Gender gender, DestinationRegion region)
         {
-            this._proposer = new Proposer(age, gender) ;
-            this._trip = new Trip(region);
+            this.Proposer = new Proposer(age, gender);
+            this.Trip = new Trip(region);
         }
 
         public TravelQuote(int age, Gender gender, DestinationRegion region, int period)
         {
-            this._proposer = new Proposer(age, gender);
-            this._trip = new Trip(region, period);
+            this.Proposer = new Proposer(age, gender);
+            this.Trip = new Trip(region, period);
         }
 
-        public Proposer Proposer
-        {
-            get { return this._proposer; }
-            set { this._proposer = value; }
-        }
+        public Proposer Proposer { get; set; }
 
-        public Trip Trip
-        {
-            get { return this._trip; }
-            set { this._trip = value; }
-        }
-        
+        public Trip Trip { get; set; }
     }
 }

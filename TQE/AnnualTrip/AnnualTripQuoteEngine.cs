@@ -12,8 +12,6 @@
 
         public override void CalculateQuote()
         {
-            //AnnualTripQuote quote = (AnnualTripQuote)this.Quote;
-
             this.Premium = this.FakeDb.GetBasePremium(QuoteType.AnnualTrip);
             this.PremiumBreakdowns.Add(new PremiumBreakdown("Base Premium", this.Premium, this.Premium));
 

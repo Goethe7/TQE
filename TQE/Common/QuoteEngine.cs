@@ -24,7 +24,6 @@
 
         public double PreviousPremium { get; set; }
 
-        //private double TotalPremium => this.Premium;
 
         public PremiumBreakdownCollection PremiumBreakdowns { get; } = new PremiumBreakdownCollection();
 

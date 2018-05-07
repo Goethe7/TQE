@@ -2,9 +2,6 @@
 {
     public class Trip
     {
-        private DestinationRegion _destination;
-        private int _periodOfTrip;
-
         public Trip()
         {
 
@@ -12,24 +9,16 @@
 
         public Trip(DestinationRegion destination)
         {
-            this._destination = destination;
+            this.Destination = destination;
         }
 
-        public Trip(DestinationRegion destination, int periodOfTrip) : this (destination)
+        public Trip(DestinationRegion destination, int periodOfTrip) : this(destination)
         {
-            this._periodOfTrip = periodOfTrip;
+            this.PeriodOfTrip = periodOfTrip;
         }
 
-        public DestinationRegion Destination
-        {
-            get { return this._destination; } 
-            set { this._destination = value; } 
-        }
+        public DestinationRegion Destination { get; set; }
 
-        public int PeriodOfTrip
-        {
-            get { return this._periodOfTrip; }
-            set { this._periodOfTrip = value; }            
-        }
+        public int PeriodOfTrip { get; set; }
     }
 }

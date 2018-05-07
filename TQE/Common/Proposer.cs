@@ -2,9 +2,6 @@
 {
     public class Proposer
     {
-        int _age;
-        Gender _gender;
-
         public Proposer()
         {
 
@@ -12,21 +9,12 @@
 
         public Proposer(int age, Gender gender)
         {
-            this._age = age;
-            this._gender = gender;
+            this.Age = age;
+            this.Gender = gender;
         }
 
-        public int Age
-        {
-            get { return this._age; }
-            set { this._age = value; }
-        }
+        public int Age { get; set; }
 
-        public Gender Gender
-        {
-            get { return this._gender; }
-            set { this._gender = value; }
-        }
-
+        public Gender Gender { get; set; }
     }
 }

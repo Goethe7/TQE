@@ -12,8 +12,6 @@
 
         public override void CalculateQuote()
         {
-           //var quote = (SingleTripQuote)this.Quote;  
-
            this.Premium = this.FakeDb.GetBasePremium(QuoteType.SingleTrip);
            this.PremiumBreakdowns.Add(new PremiumBreakdown("Base Premium", this.Premium, this.Premium));  
 
@@ -40,4 +38,3 @@
         }
     }
 }
-
