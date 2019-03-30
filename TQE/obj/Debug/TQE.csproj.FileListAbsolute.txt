@@ -16,9 +16,10 @@ C:\DEV\Travel Quote Engine\TQE\TQE\obj\Debug\TQE.exe
 C:\DEV\Travel Quote Engine\TQE\TQE\obj\Debug\TQE.pdb
 C:\DEV\TQE\TQE\bin\Debug\TQE.exe
 C:\DEV\TQE\TQE\bin\Debug\TQE.pdb
-C:\DEV\TQE\TQE\obj\Debug\TQE.csprojResolveAssemblyReference.cache
 C:\DEV\TQE\TQE\obj\Debug\TQE.Properties.Resources.resources
 C:\DEV\TQE\TQE\obj\Debug\TQE.TQEHarness.resources
 C:\DEV\TQE\TQE\obj\Debug\TQE.csproj.GenerateResource.Cache
 C:\DEV\TQE\TQE\obj\Debug\TQE.exe
 C:\DEV\TQE\TQE\obj\Debug\TQE.pdb
+C:\DEV\TQE\TQE\obj\Debug\TQE.csprojAssemblyReference.cache
+C:\DEV\TQE\TQE\obj\Debug\TQE.csproj.CoreCompileInputs.cache

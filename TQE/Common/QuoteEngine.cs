@@ -1,39 +1,39 @@
 ﻿namespace TQE.Common
 {
     using System.Text;
-    using TQE.FakeDB;
-    using TQE.TravelQuote;
+    using FakeDB;
+    using TravelQuote;
 
     public abstract class QuoteEngine
     {
         public abstract void CalculateQuote();
 
-        public double CalculatePremiumStep(double premium, double weighting)
+        protected double CalculatePremiumStep(double premium, double weighting)
         {
             return premium * weighting;
         }
 
-        public double AdditionalCost()
+        protected double AdditionalCost()
         {
-            return this.Premium - this.PreviousPremium;
+            return Premium - PreviousPremium;
         }
 
-        public TravelQuote Quote { get; set; }
+        protected TravelQuote Quote { get; set; }
 
         public double Premium { get; set; }
 
-        public double PreviousPremium { get; set; }
+        protected double PreviousPremium { get; set; }
 
 
-        public PremiumBreakdownCollection PremiumBreakdowns { get; } = new PremiumBreakdownCollection();
+        protected PremiumBreakdownCollection PremiumBreakdowns { get; } = new PremiumBreakdownCollection();
 
-        public FakeDB FakeDb { get; } = new FakeDB();
+        protected FakeDB FakeDb { get; } = new FakeDB();
 
         public string QuoteString()
         {
             var output = new StringBuilder();
 
-            foreach (var step in this.PremiumBreakdowns)
+            foreach (var step in PremiumBreakdowns)
             {
                 output.Append(step.Description);
                 output.Append(" (" + step.AdditionalCost.ToString("C") + ") : ");
@@ -42,7 +42,7 @@
             }
 
             output.Append("Total Premium: ");
-            output.Append(this.Premium.ToString("C"));
+            output.Append(Premium.ToString("C"));
             output.Append("\n");
 
             return output.ToString();

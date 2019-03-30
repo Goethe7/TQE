@@ -45,7 +45,7 @@
 
         private void butQuoteNow_Click(object sender, EventArgs e)
         {
-            string[] quoteInput = Helper.PrepareIt(this.txtInput.Text);
+            var quoteInput = Helper.PrepareIt(this.txtInput.Text);
 
             if (quoteInput[0] == QuoteType.SingleTrip.ToString())
             {
