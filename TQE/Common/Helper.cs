@@ -1,17 +1,21 @@
-﻿namespace TQE.Common
+﻿using System;
+
+namespace TQE.Common
 {
-    public class Helper
+    public static class Helper
     {
         public static string[] PrepareIt(string stringIn)
         {
-            string[] output = stringIn.Split('\n');
-            int cIndex;
+            var output = stringIn.Split('\n');
 
-            for (int i = 0; i < output.Length; i++)
+            for (var i = 0; i < output.Length; i++)
             {
-                cIndex = output[i].IndexOf(":");
+                var cIndex = output[i].IndexOf(":", StringComparison.Ordinal);
                 if (cIndex > 0)
+                {
                     output[i] = output[i].Substring(cIndex + 1);
+                }
+
                 output[i] = output[i].Replace("\r", "");
             }
 
